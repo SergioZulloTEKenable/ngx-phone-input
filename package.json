@@ -1,5 +1,5 @@
 {
-  "name": "ngx-intl-tel-input-app",
+  "name": "ngx-phone-input-test",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -15,32 +15,31 @@
     "copy-readme": "cp ./README.md ./dist/ngx-intl-tel-input",
     "copy-files": "npm run copy-license && npm run copy-readme",
     "npm_pack": "npm run copy-files && cd dist/ngx-intl-tel-input && npm pack",
-    "package": "npm run build_lib && npm run npm_pack",
-    "postinstall": "ngcc"
+    "package": "npm run build_lib && npm run npm_pack"
   },
   "dependencies": {
-    "@angular/animations": "8.x - 17.x",
-    "@angular/common": "8.x - 17.x",
-    "@angular/compiler": "8.x - 17.x",
-    "@angular/core": "8.x - 17.x",
-    "@angular/forms": "8.x - 17.x",
-    "@angular/platform-browser": "8.x - 17.x",
-    "@angular/platform-browser-dynamic": "8.x - 17.x",
-    "@angular/router": "8.x - 17.x",
+    "@angular/animations": "^16.2.12",
+    "@angular/common": "^16.2.12",
+    "@angular/compiler": "^16.2.12",
+    "@angular/core": "^16.2.12",
+    "@angular/forms": "^16.2.12",
+    "@angular/platform-browser": "^16.2.12",
+    "@angular/platform-browser-dynamic": "^16.2.12",
+    "@angular/router": "^16.2.12",
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "5.x - 6.x",
-    "core-js": "3.x - 4.x",
+    "bootstrap": "^5.3.0",
+    "core-js": "^3.33.2",
     "google-libphonenumber": "^3.2.33",
     "intl-tel-input": "^17.0.21",
-    "rxjs": "~6.6.0",
+    "rxjs": "^7.8.1",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "^0.13.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "8.x - 14.x",
-    "@angular/cli": "8.x - 14.x",
-    "@angular/compiler-cli": "8.x - 14.x",
-    "@angular/language-service": "8.x - 14.x",
+    "@angular-devkit/build-angular": "^16.2.10",
+    "@angular/cli": "^16.2.10",
+    "@angular/compiler-cli": "^16.2.12",
+    "@angular/language-service": "^16.2.12",
     "@types/google-libphonenumber": "^7.4.23",
     "@types/jasmine": "~3.8.0",
     "@types/jasminewd2": "~2.0.3",
@@ -54,19 +53,17 @@
     "karma-coverage-istanbul-reporter": "^2.0.6",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
-    "ng-packagr": "^14.0.0",
+    "ng-packagr": "^16.2.3",
     "prettier": "^2.0.5",
     "protractor": "^7.0.0",
     "rollup": "^2.22.0",
     "ts-node": "~7.0.0",
-    "tslint": "~6.1.3",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^4.5.4",
+    "typescript": "^5.0.4",
     "webpack-bundle-analyzer": "^3.9.0"
   },
   "peerDependencies": {
-    "@angular/common": "8.x - 13.x",
-    "@angular/core": "8.x - 13.x",
-    "@angular/forms": "8.x - 13.x"
+    "@angular/common": "^16.2.12",
+    "@angular/core": "^16.2.12",
+    "@angular/forms": "^16.2.12"
   }
 }
